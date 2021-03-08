@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 600;
+}
+.navbar ul li {
+  padding: 15px 20px;
+  list-style: none;
+  margin: 5px 10px;
+  color: white;
+  cursor: pointer;
+  transition: 1s background-color;
+  -webkit-transition: 1s background-color;
+  -moz-transition: 1s background-color;
+  -ms-transition: 1s background-color;
+  -o-transition: 1s background-color;
+}
+.navbar ul li:hover {
+  background-color: #ccc;
+}
+
+.navbar i {
+  position: relative;
+  left: 730px;
+  cursor: pointer;
+  padding: 100%;
+  color: #fff;
+  transition: 1s background-color;
+  -webkit-transition: 1s background-color;
+  -moz-transition: 1s background-color;
+  -ms-transition: 1s background-color;
+  -o-transition: 1s background-color;
+}
+
+.navbar div i:hover {
+  background-color: red;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  background-image: url(../images/la.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.losangeles-content {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.losangeles-content h1 {
+  margin-bottom: 15px;
+}
+
+/**************************************bannd********************************/
+.band-content {
+  width: 60%;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.band-content p:nth-of-type(2) {
+  text-align: justify;
+}
+
+.band-images {
+  margin: 70px auto;
+  width: 60%;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.band-images img {
+  width: 20%;
+}
+
+/****************************tour****************************/
+
+.tour-section {
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.tour-title {
+  text-align: center;
+  margin: 50px 0px;
+  padding-top: 70px;
+}
+
+.tour-title h2 {
+  margin-bottom: 25px;
+}
+
+.tour-sold {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+
+.tour-sold span {
+  color: gray;
+  opacity: 1;
+  line-height: 2.6;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.tour-sold hr {
+  opacity: 0.4;
+}
+
+.tour-sold span:nth-child(2) {
+  background-color: red;
+  color: #fff;
+  padding: 2px 5px;
+  opacity: 1;
+  margin-left: 15px;
+}
+.tour-sold span:nth-child(5) {
+  background-color: red;
+  color: #fff;
+  padding: 2px 5px;
+  opacity: 1;
+  margin-left: 15px;
+}
+
+.tour-sold span:nth-child(8) {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 15px;
+  position: absolute;
+  right: 50px;
+  line-height: 2;
+
+  margin-top: 5px;
+}
+
+.tour-photos {
+  margin: 35px auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 32.333%;
+}
+
+.tour-photos img {
+  width: 100%;
+}
+
+.card-details {
+  background-color: white;
+  color: #000;
+  margin-top: 0;
+  padding: 20px 20px;
+}
+
+.card-details h3,
+p {
+  margin-bottom: 15px;
+}
+
+.card-details button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.card-details button:hover {
+  background-color: #ccc;
+  color: #000;
+  cursor: pointer;
+}
+
+.contact-section li {
+  list-style: none;
+}
+
+.contact-section {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.contact-title {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.contact-title h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 200;
+}
+.contact-title p {
+  color: grey;
+  font-style: italic;
+}
+
+/* .contact-section ul {
+    background-color: grey;
+
+} */
+.contact-section ul li {
+  font-size: 20px;
+  display: flex;
+}
+.contact-section ul li i {
+  margin-right: 20px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.contact-list {
+  width: 40%;
+  margin-top: 15px;
+}
+
+.contact-inputs {
+  width: 60%;
+  margin-left: 70px;
+  position: relative;
+}
+
+.contact-inputs input {
+  height: 40px;
+}
+
+.contact-inputs input:nth-child(1) {
+  margin-right: 28px;
+}
+
+.contact-inputs input:nth-child(3) {
+  width: 90%;
+  margin-top: 10px;
+}
+.contact-inputs input:placeholder-shown {
+  padding-left: 10px;
+}
+
+.contact-inputs button {
+  display: block;
+  margin-top: 15px;
+  position: absolute;
+  left: 77%;
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-inputs button:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.map-section {
+  margin-top: 50px;
+}
+
+.map-section img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+footer i {
+  color: #000;
+  opacity: 0.6;
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-right: 2px;
+}
+footer p {
+  font-size: 17px;
+  color: #000;
+  opacity: 0.6;
+}
+
+footer i:hover {
+  opacity: 0.4;
+}
